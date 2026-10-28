@@ -20,5 +20,4 @@ An automated test bench framework developed in Python to validate automotive Ele
 
 ## 🚀 Execution & Results
 ```bash
-### Test Execution Evidence
-![Test Results](Capture%20d'%C3%A9cran%20CA-UDS.png)
+![Test Results](test_results.png)
