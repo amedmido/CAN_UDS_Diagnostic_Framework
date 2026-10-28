@@ -1,0 +1,18 @@
+VERSION ""
+
+NS_ :
+
+BS_:
+
+BU_: Tester Engine_ECU
+
+BO_ 256 EngineData: 8 Engine_ECU
+ SG_ EngineSpeed : 0|16@1+ (0.25,0) [0|8000] "rpm" Tester
+ SG_ VehicleSpeed : 16|16@1+ (0.01,0) [0|300] "km/h" Tester
+ SG_ BrakePedalStatus : 32|8@1+ (1,0) [0|1] "" Tester
+
+BO_ 2015 DiagRequest: 8 Tester
+ SG_ DiagReqData : 0|64@1+ (1,0) [0|0] "" Engine_ECU
+
+BO_ 2023 DiagResponse: 8 Engine_ECU
+ SG_ DiagRespData : 0|64@1+ (1,0) [0|0] "" Tester
