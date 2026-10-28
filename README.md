@@ -20,4 +20,5 @@ An automated test bench framework developed in Python to validate automotive Ele
 
 ## 🚀 Execution & Results
 ```bash
-python -m pytest test_diagnostic_suite.py -v -s
+### Test Execution Evidence
+![Test Results](test_results.png)
